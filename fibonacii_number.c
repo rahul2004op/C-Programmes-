@@ -2,6 +2,7 @@
 
 int main(){
     int n;
+    int i;
     printf("enter the number >2:");
     scanf("%d",&n);
     int fab[n];
@@ -10,8 +11,9 @@ int main(){
     printf("fibonacii series is");
     for(int i=2;i<n;i++){
         fab[i]=fab[i-1] + fab[i-2];
-        printf(" %d",fab[i]);
+        
     }
+    printf(" %d",fab[i]);
     
     
     return 0;
